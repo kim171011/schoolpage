@@ -1,0 +1,21 @@
+.p2{
+    height: auto;
+    border-bottom: 40px solid white;
+    color: #1b1c1d;
+    background-color: #f6f6f6;
+}
+#Curriculum{
+    display: block; 
+    margin: 0px auto; 
+}
+.noun_img{
+    width: 20%;
+    height: 100%;
+    vertical-align: middle;
+    display: flex;
+    margin-left: 40%;
+    
+}
+.noun_box{
+    
+}

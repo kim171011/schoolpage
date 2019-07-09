@@ -1,0 +1,97 @@
+/*all page*/
+        
+        *{box-sizing: border-box;}
+        #p3 {background-color: violet;}
+        #p4 {background-color: yellow;}
+        #p5 {background-color: lightblue;}
+        
+        #t2:target #p2,
+        #t3:target #p3,
+        #t4:target #p4,
+        #t5:target #p5
+        {
+            transform: translateX(-200%);
+            transition: all 1s;
+            transition-delay: 0.5s;
+        }
+        #t2:target #p1,
+        #t3:target #p1,
+        #t4:target #p1,
+        #t5:target #p1
+        {
+            background: black;
+            filter: blur(5px);
+            transition:background 3s;
+        }
+        #p2, #p3,#p4, #p5{
+            position: absolute;
+            left: 200%;
+        }
+        #p1{
+            position: absolute;
+            left: 0;
+        }
+        .page{
+          width:100%;
+            height: 100%;
+            color: white;
+            transition: all 1s;
+        }
+        
+        /*menu*/
+        
+        .menu{
+            height: 7%;
+            width: 100%;
+            background:  #353535 ;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            margin: 0;
+            padding: 16px;
+            z-index: 1;
+            opacity: 0.98;
+            font-weight: 100;
+            
+        }
+        .menu-2{
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            margin-top: 47%;
+            z-index: 1;
+            
+        }
+        .li-1{
+            list-style: none;
+            display: inline;
+            color: white;
+        }
+        .li-2{
+            list-style: none;
+            display: inline;
+            color: #292929;
+        }
+        a{
+            text-decoration: none;
+            padding: 16px;
+        }
+        a:hover{filter: blur(0.6px);}
+        html,body{
+            margin: 0;
+            padding: 0;
+            width:100%;
+            overflow-x:hidden;
+            transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            scroll-behavior: smooth;
+        }
+#bmrlogo{
+    width: 120px;
+    height: 120px;
+}
+#logo{
+    width: 200px;
+    float: left;
+}
+        
