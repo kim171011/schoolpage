@@ -9,8 +9,8 @@
     margin: 0px auto; 
 }
 .noun_img{
-    width: 20%;
-    height: 100%;
+    width: 17.55em;
+    height: 90%;
     vertical-align: middle;
     display: flex;
     margin-left: 40%;
@@ -18,4 +18,11 @@
 }
 .noun_box{
     
+}
+.slide{
+    text-align: center;
+    font-size: 30px;
+}
+.a{
+    margin-left: 20%;
 }
